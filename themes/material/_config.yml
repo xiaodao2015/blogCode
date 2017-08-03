@@ -17,13 +17,17 @@ menu:
     icon: "fa fa-rss"
 
 links:
-  - title: "GitHub"
-    url: http://www.github.com/wayou
-    intro: "码农之家"
+  - title: "醉牛前端"
+    url: http://f2er.club/
+    intro: "最专业  最懂你"
     icon: "fa fa-github"
-  - title: "微博"
-    url: http://www.weibo.com/liuwayong
-    intro: "twitter的本地化版本"
+  - title: "npm"
+    url: https://www.npmjs.com/
+    intro: "nodejs要啥都有"
+    icon: "fa fa-weibo"
+  - title: "博客园"
+    url: https://home.cnblogs.com/u/xuduo/
+    intro: "许多博客"
     icon: "fa fa-weibo"
 
 widgets:
