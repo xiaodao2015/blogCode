@@ -105,6 +105,7 @@ tags: Markdown
 [Google]: http://google.com/
 ```
 
+
 ## 图片
 图片与连接相比在前面加一个叹号就可以了。
 ```
@@ -140,6 +141,19 @@ Markdown 的粗体和斜体也非常简单，用两个 * 包含一段文本就�
 \ ` \ ` \ `
 alert(123);
 \ ` \ ` \ ` 
+```
+代码高亮。选择代码语言，可以在三个反引号后直接跟语言名称。例如：python，JavaScript，c#，java等。
+```python
+@requires_authorization
+class SomeClass:
+    pass
+
+if __name__ == '__main__':
+    # A comment
+    print 'hello world'
+```
+```javaScript
+alert("123123");
 ```
 ## 分割线
 你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线。

@@ -15,5 +15,21 @@ tags: java
 
 <%- url_for(pub_hy_img.jpg) %>
 
+{% code 示例 lang:javaScript d javaScript %}
+alert('Hello World!');
+{% endcode %}
+
+{% pullquote [class] %}
+content
+{% endpullquote %}
+{% blockquote David Levithan, Wide Awake %}
+Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.
+{% endblockquote %}
+
+{% gist gist_id filename %}
+{% img class1 pub_hy_img.jpg 100 100 [title text [alt text]] %}
+
+
+
 
 
