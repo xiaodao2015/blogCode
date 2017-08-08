@@ -8,7 +8,7 @@
       积少成多
     </div>
      <div id="footer-right">
-      <%= __('contact') %>&nbsp;|&nbsp;<%= config.email || theme.email  || config.url %>
+      <a href="mailto:<%= config.email || theme.email  || config.url %>"> <%= __('contact') %>&nbsp;|&nbsp;<%= config.email || theme.email  || config.url %></a>
     </div>
   </div>
 </footer>
